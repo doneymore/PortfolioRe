@@ -1,0 +1,83 @@
+*{box-sizing: border-box}
+html {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #efefef;
+    padding: 10px;
+    font-size: 13pt;
+    font-family: 'handlee', cursive;
+    margin: 0;
+}
+li {
+    list-style-type: circle;
+}
+h1 {
+    font-size: 15pt;
+    color: #20bcd5;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+
+h1 span {
+  border: 4px dashed #20bcd5;
+    padding: 10px;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    word-spacing: 0.5em;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+}
+
+.box1 {
+    height: 100px;
+    background-color: coral;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    word-spacing: 0.5em;
+    border: 1px solid coral;
+    border-radius: 20px;
+}
+
+.box2 {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    min-height: 300px;
+}
+.box2 a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.box2 a:hover {
+    color: red;
+}
+
+progress {
+    width: 70%;
+    height: 30px;
+    color: coral;
+    background: #efefef;
+        
+}
+progress::webkit-progress-bar {
+    background: coral;
+    color: #efefef;
+}
+.box1 p {
+  line-height: 1.0em;
+  }
+
